@@ -1,0 +1,23 @@
+void reverseList()//makes list in reverse order
+	{
+		if (isEmptyList())
+		{
+			cout << "Error there is no node!";
+			return;
+		}
+		nodeType<Type> *cur, *prev, *next;
+
+		cur = first;
+		prev = NULL;
+		next = NULL;
+		while (cur != NULL)
+		{
+			next = cur->link;
+			cur->link = prev;
+			prev = cur;
+			cur = next;
+		}
+		last = first;
+		first = prev;
+		print();
+	}
