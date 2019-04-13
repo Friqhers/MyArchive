@@ -20,11 +20,7 @@ void slowPrint(char &c, int delay)
 }
 int main()
 {
-	/*std::string textIntro1 = "Welcome to the party!!";
-	slowPrint(textIntro1, 200);
-	std::string name = "Mehmet Furkan Gulmez";
-	slowPrint(name, 200);*/
-/*
+
 	char c;
 	std::string line;
 	std::ifstream infile;
