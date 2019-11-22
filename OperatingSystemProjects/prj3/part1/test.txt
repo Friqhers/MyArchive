@@ -1,0 +1,40 @@
+Shell_Command -> ls
+------------------------------------------------
+Process_Id:3990, Parent_Process_Id:3989
+------------------------------------------------
+prj3_part1  process  process.c	test.txt
+
+Shell_Command -> ls -l
+------------------------------------------------
+Process_Id:3991, Parent_Process_Id:3989
+------------------------------------------------
+total 20
+drwxrwxr-x. 2 sysadmin sysadmin    6 Nov  4 11:52 prj3_part1
+-rwxrwxr-x. 1 sysadmin sysadmin 9064 Nov  4 12:34 process
+-rw-rw-r--. 1 sysadmin sysadmin 1352 Nov  4 12:34 process.c
+-rw-rw-r--. 1 sysadmin sysadmin  545 Nov  4 12:35 test.txt
+
+Shell_Command -> ls -l /home
+------------------------------------------------
+Process_Id:3992, Parent_Process_Id:3989
+------------------------------------------------
+total 4
+drwx------. 17 sysadmin sysadmin 4096 Nov  4 11:52 sysadmin
+
+Shell_Command -> cd prj3_part1
+------------------------------------------------
+Process_Id:3993, Parent_Process_Id:3989
+------------------------------------------------
+
+Shell_Command -> cd ..
+------------------------------------------------
+Process_Id:3994, Parent_Process_Id:3989
+------------------------------------------------
+
+Shell_Command -> ls
+------------------------------------------------
+Process_Id:3995, Parent_Process_Id:3989
+------------------------------------------------
+prj3_part1  process  process.c	test.txt
+
+Shell_Command -> exit

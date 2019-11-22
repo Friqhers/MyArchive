@@ -1,0 +1,43 @@
+Enter account name:Entered account: root
+
+Home Directory: /root Login_Shell: /bin/bash Comment:root
+Size of comment field: 4
+Record length: 32
+Enter a comment for root account: Entered Comment: toor
+Size of entered comment: 4
+After Updated: root:x:0:0:toor:/root:/bin/bash
+
+Enter account name:Entered account: bin
+
+Home Directory: /bin Login_Shell: /sbin/nologin Comment:bin
+Size of comment field: 3
+Record length: 33
+Enter a comment for bin account: Entered Comment: nib
+Size of entered comment: 3
+After Updated: bin:x:1:1:nib:/bin:/sbin/nologin
+
+Enter account name:Entered account: daemon
+
+Home Directory: /sbin Login_Shell: /sbin/nologin Comment:daemon
+Size of comment field: 6
+Record length: 40
+Enter a comment for daemon account: Entered Comment: daebon
+Size of entered comment: 6
+After Updated: daemon:x:2:2:daebon:/sbin:/sbin/nologin
+
+Enter account name:Entered account: mail
+
+Home Directory: /var/spool/mail Login_Shell: /sbin/nologin Comment:mail
+Size of comment field: 4
+Record length: 47
+Enter a comment for mail account: Entered Comment: main
+Size of entered comment: 4
+After Updated: mail:x:8:12:main:/var/spool/mail:/sbin/nologin
+
+Enter account name:Entered account: gdm
+
+Home Directory: /var/lib/gdm Login_Shell: /sbin/nologin
+Comment: No comment
+Size of comment field: 0
+Record length: 40
+No changes made

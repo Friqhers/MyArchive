@@ -1,0 +1,16 @@
+Enter account name:root
+
+i=7 Home Directory: /root Login_Shell: /bin/bash
+ Ñ	a	
+Enter account name:bin
+
+i=7 Home Directory: /bin Login_Shell: /sbin/nologin
+¿å
+Enter account name:adm
+
+i=7 Home Directory: /var/adm Login_Shell: /sbin/nologin
+
+Enter account name:sysadmin
+
+i=7 Home Directory: /home/sysadmin Login_Shell: /bin/bash
+
